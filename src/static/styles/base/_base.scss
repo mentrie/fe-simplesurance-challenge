@@ -7,9 +7,25 @@ body {
   padding: 0;
   font-family: Rubik, sans-serif;
   box-sizing: border-box;
-  font-size: $s-size
+  font-size: $s-size;
 }
 
 .main {
   min-height: calc(100vh - 6rem);
+  width: 90%;
+  margin: 5rem auto;
+  text-align: center;  
+
+  .logo {
+    width: 20rem;
+    height: 10rem;
+  }
+
+  @media screen and (min-width: $iphone-screen){
+    width: 70%;
+  }
+
+  @media screen and (min-width: $laptop-screen) {
+    width: 60%;
+  }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import QuestionsPage from './QuestionPage';
-import CustomerResponse from '../../containers/CustomerReponse';
+import CustomerResponse from '../../components/CustomerReponse';
 import { fetchNextQuestion, sendCustomerResponse } from '../../actions/action-creators';
 
 

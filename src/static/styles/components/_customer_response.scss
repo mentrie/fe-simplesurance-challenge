@@ -1,0 +1,29 @@
+.customer__response {
+  color: $text-gray;
+}
+
+.customer__response__header {
+  .header {
+    font-size: $m-size;    
+  }
+
+  .instruction {
+    font-size: $s-size * 1.2;
+    font-style: italic;
+  }
+}
+
+.customer__response__answers {
+  text-align: left;
+
+}
+
+.customer__response__answer {
+  .question {
+    font-size: $sm-size;
+  }
+
+  > span {
+    font-size: $m-size;
+  }
+}

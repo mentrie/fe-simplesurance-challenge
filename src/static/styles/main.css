@@ -10,11 +10,42 @@ body {
   font-size: 1rem; }
 
 .main {
-  min-height: calc(100vh - 6rem); }
+  min-height: calc(100vh - 6rem);
+  width: 90%;
+  margin: 5rem auto;
+  text-align: center; }
+  .main .logo {
+    width: 20rem;
+    height: 10rem; }
+  @media screen and (min-width: 480px) {
+    .main {
+      width: 70%; } }
+  @media screen and (min-width: 1024px) {
+    .main {
+      width: 60%; } }
+
+.customer__response {
+  color: #4A4A4A; }
+
+.customer__response__header .header {
+  font-size: 1.8rem; }
+
+.customer__response__header .instruction {
+  font-size: 1.2rem;
+  font-style: italic; }
+
+.customer__response__answers {
+  text-align: left; }
+
+.customer__response__answer .question {
+  font-size: 1.4rem; }
+
+.customer__response__answer > span {
+  font-size: 1.8rem; }
 
 .footer {
   display: flex;
-  height: 6rem;
+  height: 15rem;
   background-color: #004B79;
   justify-content: center;
   align-items: center;
@@ -23,3 +54,62 @@ body {
 .footer__twitter__link {
   text-decoration: none;
   color: inherit; }
+
+.questions {
+  color: #4A4A4A;
+  transition: background-color .5s; }
+
+.questions__header {
+  text-align: center; }
+  .questions__header .header {
+    font-size: 1.4rem; }
+  .questions__header .instruction {
+    font-size: 1.2rem;
+    font-style: italic; }
+
+.question__next__btn {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+  color: #ffffff;
+  height: 4.4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  width: 10rem;
+  border-radius: 3rem;
+  border: none;
+  background: #4dbdca;
+  float: right; }
+
+.textinput {
+  margin-top: 5rem; }
+  .textinput input {
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    width: 100%;
+    color: #2B7DB6;
+    outline: none;
+    border-bottom: 0.2rem #004B79 solid;
+    font-size: 1.6rem;
+    padding: .8rem 0 .8rem .2rem; }
+    .textinput input::-webkit-input-placeholder {
+      color: #2B7DB6; }
+    .textinput input:focus {
+      border-bottom: 0.01rem #2B7DB6 solid; }
+  .textinput textarea {
+    margin-top: 3rem;
+    padding: 1.4rem;
+    color: #2B7DB6;
+    resize: none;
+    border: 0.1rem #dbd6d6 solid;
+    border-radius: .3rem;
+    width: calc(100% - 2 * 1.6rem); }
+  .textinput .textinput__label {
+    color: #004B79;
+    font-size: 1.4rem;
+    display: block; }
+  .textinput .error::before {
+    content: '*'; }
+  .textinput .has__error {
+    border-bottom: 0.2rem red solid; }

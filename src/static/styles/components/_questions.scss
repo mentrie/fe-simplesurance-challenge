@@ -1,0 +1,32 @@
+.questions {
+  color: $text-gray;
+  transition: background-color .5s;
+}
+
+.questions__header {
+  text-align: center;
+
+  .header {
+    font-size: $sm-size;    
+  }
+
+  .instruction {
+    font-size: $s-size * 1.2;
+    font-style: italic;
+  }
+}
+
+.question__next__btn {
+  font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+    color: $white;
+    height: 4.4rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 10rem;
+    border-radius: 3rem;
+    border: none;
+    background: $button-color;
+    float: right;
+}
