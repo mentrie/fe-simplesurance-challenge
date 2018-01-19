@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component properly 1`] = `
+<div
+  className="customer__response"
+>
+  <section
+    className="customer__response__header"
+  >
+    <h3
+      className="header"
+    >
+      We Have Received your Complaint
+    </h3>
+    <p
+      className="instruction"
+    >
+      Your response has been sent to our customer representative. We will get back to your soon
+    </p>
+  </section>
+  <hr />
+  <div
+    className="customer__response__answers"
+  >
+    <div
+      className="customer__response__answer"
+      key="0"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        1
+        : 
+        <span>
+          What happened to your product?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="1"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        2
+        : 
+        <span>
+          When did the incident occur?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="2"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        3
+        : 
+        <span>
+          When was your last claim submission?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="3"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        4
+        : 
+        <span>
+          When did you purchase your product?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="4"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        5
+        : 
+        <span>
+          How much did your product cost?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="5"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        6
+        : 
+        <span>
+          Are you insured elsewhere?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="6"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        7
+        : 
+        <span>
+          Name of additional insurance?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="7"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        8
+        : 
+        <span>
+          Was a police report filed?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="8"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        9
+        : 
+        <span>
+          Please provide us with your full name?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="9"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        10
+        : 
+        <span>
+          Please provide us with a contact number?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="10"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        11
+        : 
+        <span>
+          Please provide us with a contact email address?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="customer__response__answer"
+      key="11"
+    >
+      <p
+        className="question"
+      >
+        Questions 
+        12
+        : 
+        <span>
+          Please provide us with your date of birth?
+        </span>
+      </p>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

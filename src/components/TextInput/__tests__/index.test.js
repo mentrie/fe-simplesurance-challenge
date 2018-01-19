@@ -6,7 +6,8 @@ test('should render component', () => {
     value: {
       text: '',
       reply: ''
-    }
+    },
+    onChange: jest.fn()
   }
   const component = shallow(<TextInput {...props} />);
   expect(component).toMatchSnapshot();

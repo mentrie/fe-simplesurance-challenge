@@ -37,7 +37,6 @@ export class Questions extends Component {
   isValid() {
 
     const {question} = this.state;
-    console.log(question)
     if(question.reply === '') return false;
     if(question.type === 'string' && typeof(question.reply) !== 'string') return false;
     if(question.type === 'date' && !moment(question.reply, 'YYYY-MM-DD', true).isValid()) return false;

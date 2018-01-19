@@ -12,7 +12,7 @@ export class CustomerResponse extends Component {
       <div className="customer__response">
         <section className="customer__response__header">
           <h3 className="header">We Have Received your Complaint</h3>
-          <p className="instruction">Your response has been sent to our customer representative. We'll get back to your soon</p>
+          <p className="instruction">Your response has been sent to our customer representative. We will get back to your soon</p>
         </section>
         <hr />
         <div className="customer__response__answers">
@@ -29,8 +29,8 @@ export class CustomerResponse extends Component {
 }
 
 CustomerResponse.propTypes = {
-  answers: PropTypes.shape(PropTypes.shape({
-    id: PropTypes.number,
+  answers: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
     text: PropTypes.string,
     reply: PropTypes.string,
   })).isRequired

@@ -3,7 +3,7 @@ import Footer from '../index';
 
 test('It should render component', () => {
   const component = shallow(<Footer />);
-  expect(component).toMatchSnapshot()
+  expect(component).toMatchSnapshot();
 });
 
 test('It should render a link tag', () => {

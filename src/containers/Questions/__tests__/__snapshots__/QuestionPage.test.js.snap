@@ -15,10 +15,11 @@ exports[`should render page correctly 1`] = `
     <p
       className="instruction"
     >
-      (Please, take your time to answer all the question to help us process your complaint).
+      (Please, take your time to answers all the question to help us process your complaint).
     </p>
   </section>
   <TextInput
+    onChange={[Function]}
     question="Testing"
     type=""
     value={

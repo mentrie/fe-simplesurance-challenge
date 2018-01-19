@@ -45,6 +45,7 @@ exports[`should render component 1`] = `
   />
   <input
     className=" "
+    onChange={[Function]}
     placeholder=""
     required={true}
     value=""

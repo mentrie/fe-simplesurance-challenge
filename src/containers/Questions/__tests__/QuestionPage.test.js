@@ -7,7 +7,8 @@ test('should render page correctly', () => {
       type: '',
       next: null,
       text: 'Testing'
-    }
+    },
+    onChange: jest.fn()
   }
 
   const component = shallow(<QuestionPage {...props} />);
@@ -21,6 +22,7 @@ test('should call on next question when button is clicked', () => {
       next: '34',
       text: 'Testing'
     },
+    onChange: jest.fn(),
     onNextStep: jest.fn()
   }
 
