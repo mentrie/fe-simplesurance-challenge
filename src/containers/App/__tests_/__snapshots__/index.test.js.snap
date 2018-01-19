@@ -2,11 +2,15 @@
 
 exports[`renders without crashing 1`] = `
 <div>
-  yoo we're here
   <main
     className="main"
   >
-    mamin guy
+    <img
+      alt="Simple surance logo"
+      className="logo"
+      src="simplesurance.png"
+    />
+    <Connect(Questions) />
   </main>
   <Footer />
 </div>

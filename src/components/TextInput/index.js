@@ -14,6 +14,7 @@ const TextInput = ({value, type, error, onChange, question, className="", ...res
           className={`${className} ${error? "has-error": ""}`}
           rows={5}
           {...restProps}
+          required
         /> :
         <input
           type={type}
@@ -21,6 +22,7 @@ const TextInput = ({value, type, error, onChange, question, className="", ...res
           onChange={onChange}
           placeholder={value.reply} 
           className={`${className} ${error? "has-error": ""}`}
+          required
           {...restProps}
         />
       }

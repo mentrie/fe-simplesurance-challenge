@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It should render TextArea if question type is string 1`] = `
+<div
+  className="textinput"
+>
+  <label
+    className="textinput__label"
+  />
+  <TextareaAutosize
+    className=" "
+    onChange={[Function]}
+    placeholder=""
+    required={true}
+    rows={5}
+    value=""
+  />
+</div>
+`;
+
+exports[`It should render input tag if question type is not a string 1`] = `
+<div
+  className="textinput"
+>
+  <label
+    className="textinput__label"
+  />
+  <input
+    className=" "
+    onChange={[Function]}
+    placeholder=""
+    required={true}
+    type="date"
+    value=""
+  />
+</div>
+`;
+
+exports[`should render component 1`] = `
+<div
+  className="textinput"
+>
+  <label
+    className="textinput__label"
+  />
+  <input
+    className=" "
+    placeholder=""
+    required={true}
+    value=""
+  />
+</div>
+`;

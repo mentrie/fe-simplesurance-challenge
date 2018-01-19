@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render page correctly 1`] = `
+<div
+  className="questions"
+>
+  <section
+    className="questions__header"
+  >
+    <h3
+      className="header"
+    >
+      Welcome To Customer Complaint Portal
+    </h3>
+    <p
+      className="instruction"
+    >
+      (Please, take your time to answer all the question to help us process your complaint).
+    </p>
+  </section>
+  <TextInput
+    question="Testing"
+    type=""
+    value={
+      Object {
+        "next": null,
+        "text": "Testing",
+        "type": "",
+      }
+    }
+  />
+  <button
+    className="question__next__btn"
+  >
+    Next
+  </button>
+</div>
+`;

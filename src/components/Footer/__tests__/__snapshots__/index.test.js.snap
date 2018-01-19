@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It should render component 1`] = `
+<footer
+  className="footer"
+>
+  <p>
+    Designed and built by 
+    <a
+      className="footer__twitter__link"
+      href="https://twitter.com/mentrie"
+    >
+      @mentrie
+    </a>
+  </p>
+</footer>
+`;
