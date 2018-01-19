@@ -32,7 +32,15 @@ const TextInput = ({value, type, error, onChange, question, className="", ...res
 }
 
 TextInput.propTypes = {
-  /// Add propTypes validation here
+  value: PropTypes.shape({
+    next: PropTypes.any(['object', 'string']),
+    text: PropTypes.string.isRequired,
+    reply: PropTypes.string,
+    type: PropTypes.string
+  }),
+  onChange: PropTypes.func.isRequired,
+  sendCustomerResponse: PropTypes.func,
+  error: PropTypes.string
 }
 
 export default TextInput;
