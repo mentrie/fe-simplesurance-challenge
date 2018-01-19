@@ -33,7 +33,6 @@ const TextInput = ({value, type, error, onChange, question, className="", ...res
 
 TextInput.propTypes = {
   value: PropTypes.shape({
-    next: PropTypes.any(['object', 'string']),
     text: PropTypes.string.isRequired,
     reply: PropTypes.string,
     type: PropTypes.string

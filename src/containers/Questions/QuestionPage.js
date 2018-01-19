@@ -24,7 +24,6 @@ const QuestionPage = ({value, onChange, onNextStep, sendCustomerResponse, error}
 
 QuestionPage.propTypes = {
  value: PropTypes.shape({
-   next: PropTypes.any(['object', 'string']),
    text: PropTypes.string.isRequired,
    reply: PropTypes.string,
    type: PropTypes.string
