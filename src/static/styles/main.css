@@ -46,7 +46,7 @@ body {
 .footer {
   display: flex;
   height: 15rem;
-  background-color: #004B79;
+  background-color: #0c5a63;
   justify-content: center;
   align-items: center;
   color: #ffffff; }
@@ -62,7 +62,7 @@ body {
 .questions__header {
   text-align: center; }
   .questions__header .header {
-    font-size: 1.4rem; }
+    font-size: 1.8rem; }
   .questions__header .instruction {
     font-size: 1.2rem;
     font-style: italic; }
@@ -90,7 +90,7 @@ body {
     width: 100%;
     color: #2B7DB6;
     outline: none;
-    border-bottom: 0.2rem #004B79 solid;
+    border-bottom: 0.2rem #0c5a63 solid;
     font-size: 1.6rem;
     padding: .8rem 0 .8rem .2rem; }
     .textinput input::-webkit-input-placeholder {
@@ -106,7 +106,7 @@ body {
     border-radius: .3rem;
     width: calc(100% - 2 * 1.6rem); }
   .textinput .textinput__label {
-    color: #004B79;
+    color: #0c5a63;
     font-size: 1.4rem;
     display: block; }
   .textinput .error {
