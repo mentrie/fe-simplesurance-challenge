@@ -3,12 +3,13 @@ import PropTypes from 'prop-types';
 import TextInput from '../../components/TextInput';
 
 const QuestionPage = ({value, onChange, onNextStep, sendCustomerResponse, error}) => {
-  const onClick = value.next? onNextStep: sendCustomerResponse
+  const onClick = value.next? onNextStep: sendCustomerResponse;
+
   return (
     <div className="questions">
       <section className="questions__header">
         <h3 className="header">Welcome To Customer Complaint Portal</h3>
-        <p className="instruction">(Please, take your time to answer all the question to help us process your complaint).</p>
+        <p className="instruction">(Please, take your time to answers all the question to help us process your complaint).</p>
       </section>
       <TextInput 
         type={value.type}

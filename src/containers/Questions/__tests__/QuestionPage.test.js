@@ -11,7 +11,7 @@ test('should render page correctly', () => {
   }
 
   const component = shallow(<QuestionPage {...props} />);
-  expect(component).toMatchSnapshot()
+  expect(component).toMatchSnapshot();
 });
 
 test('should call on next question when button is clicked', () => {
@@ -26,5 +26,5 @@ test('should call on next question when button is clicked', () => {
 
   const component = mount(<QuestionPage {...props} />);
   component.find('button').simulate('click');
-  expect(component.props().onNextStep).toHaveBeenCalled()
+  expect(component.props().onNextStep).toHaveBeenCalled();
 });

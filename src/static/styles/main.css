@@ -109,7 +109,13 @@ body {
     color: #004B79;
     font-size: 1.4rem;
     display: block; }
-  .textinput .error::before {
-    content: '*'; }
-  .textinput .has__error {
-    border-bottom: 0.2rem red solid; }
+  .textinput .error {
+    color: red;
+    text-align: left;
+    font-style: italic; }
+    .textinput .error::before {
+      content: '*'; }
+  .textinput .has__error-input {
+    border-bottom: 0.1rem red solid; }
+  .textinput .has__error-textarea {
+    border: 0.1rem red solid; }

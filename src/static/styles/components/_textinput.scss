@@ -38,12 +38,22 @@
   }
 
   .error {
+    color: red;
+    text-align: left;
+    font-style: italic;
+
     &::before {
       content: '*'
     }
   }
 
   .has__error {
-    border-bottom: 0.2rem red solid;
+    &-input {
+      border-bottom: 0.1rem red solid;
+    }
+
+    &-textarea {
+      border: 0.1rem red solid;
+    }
   }
 }

@@ -11,7 +11,7 @@ const TextInput = ({value, type, error, onChange, question, className="", ...res
           value={value.reply}
           onChange={onChange}
           placeholder={value.reply} 
-          className={`${className} ${error? "has-error": ""}`}
+          className={`${className} ${error? "has__error-textarea": ""}`}
           rows={5}
           {...restProps}
           required
@@ -21,12 +21,12 @@ const TextInput = ({value, type, error, onChange, question, className="", ...res
           value={value.reply}
           onChange={onChange}
           placeholder={value.reply} 
-          className={`${className} ${error? "has-error": ""}`}
+          className={`${className} ${error? "has__error-input": ""}`}
           required
           {...restProps}
         />
       }
-      {error && <p classNam="error">{error}</p>}
+      {error && <p className="error">{error}</p>}
     </div>
   )
 }
